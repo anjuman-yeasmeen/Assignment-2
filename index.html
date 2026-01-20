@@ -145,9 +145,10 @@
         </div>
       </div>
     </section>
+
     <main>
       <!-- ### About Section -->
-      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-10 md:py-20">
+      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-10 mt-[0px] md:py-20 md:px-[200px]">
         <div
           class="max-w-[1200px] mx-auto w-full flex flex-col text-center px-6 md:px-[200px] mb-[60px] md:mb-[80px] border-b border-white/10 pb-12"
         >
@@ -172,7 +173,7 @@
         <!-- about card sections -->
 
         <div
-          class="max-w-[1200px] mx-auto w-full grid grid-cols-2 md:flex md:flex-wrap justify-items-center justify-center gap-y-10 gap-x-4 md:gap-6 px-4 md:px-0"
+          class="max-w-[1200px] mx-auto w-full grid grid-cols-2 md:flex md:flex-wrap justify-items-center justify-center gap-y-10 gap-x-4 md:gap-6 px-4 md:px-[200px] mt-[80px]"
         >
           <div class="w-full max-w-[160px] md:w-[240px] flex flex-col items-center">
             <h1
@@ -221,7 +222,7 @@
       </section>
 
       <!-- ### Why Choose Section -->
-      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-20 px-6 md:px-[100px]">
+      <section class="w-full max-w-[1600px] mx-auto bg-[#230E3D] mt-[120px] py-20 px-6  md:px-[200px]">
         <div class="max-w-[1200px] mx-auto">
           <h1 class="text-white font-bold text-[48px] md:text-[48px] text-center mb-16">
             Why Choose TechWave
@@ -284,17 +285,132 @@
         </div>
       </section>
 
-      <!-- ### Featured Episodes Section -->
 
-      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-20 px-6 md:px-[100px]">
-        <h1>Featured Episodes</h1>
-        <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tlQJ6dcKdSU?si=ymBV3C5Y6FQAe8Rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <h3>The Future of AI in Everyday Life</h3>
-          <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+      <!-- ### Featured Episodes Section -->
+       <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-20 px-6 md:px-[200px] mt-[120px]">
+  <div class="max-w-[1200px] mx-auto">
+    <h1 class="text-white font-bold text-[32px] md:text-[48px] mb-12 text-center ">
+      Featured Episodes
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="bg-[#230E3D] rounded-2xl overflow-hidden border border-white/10 flex flex-col">
+        <div class="aspect-video w-full">
+          <iframe 
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/tlQJ6dcKdSU" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
         </div>
+        <div class="p-6 flex flex-col flex-1">
+          <h3 class="text-white font-bold text-[20px] mb-3">The Future of AI in Everyday Life</h3>
+          <p class="text-white/70 text-sm mb-6 flex-1">
+            Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.
+          </p>
+          <div class="flex items-center gap-2 mt-auto">
+            <img src="./assets/clock.png" alt="clock" class="w-4 h-4 brightness-0 invert opacity-70">
+            <p class="text-[#00FF88] text-sm font-medium">42 min</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#230E3D] rounded-2xl overflow-hidden border border-white/10 flex flex-col">
+        <div class="aspect-video w-full">
+          <iframe 
+
+            width="560" height="315" src="https://www.youtube.com/embed/OtKaonynG4c?si=1fJbPdm8JAj-JZzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+           
+          </iframe>
+        </div>
+        <div class="p-6 flex flex-col flex-1">
+          <h3 class="text-white font-bold text-[20px] mb-3">Mastering Remote Work</h3>
+          <p class="text-white/70 text-sm mb-6 flex-1">
+            Key strategies for maintaining productivity and work-life balance while working from anywhere in the world.
+          </p>
+          <div class="flex items-center gap-2 mt-auto">
+            <img src="./assets/clock.png" alt="clock" class="w-4 h-4 brightness-0 invert opacity-70">
+            <p class="text-[#00FF88] text-sm font-medium">35 min</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#230E3D] rounded-2xl overflow-hidden border border-white/10 flex flex-col">
+        <div class="aspect-video w-full">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wh0OS4MrN3E?si=t2S5ODD1gGxo0reO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="p-6 flex flex-col flex-1">
+          <h3 class="text-white font-bold text-[20px] mb-3">The Growth Mindset</h3>
+          <p class="text-white/70 text-sm mb-6 flex-1">
+            Interviews with top tech CEOs about the mental frameworks that helped them build successful companies.
+          </p>
+          <div class="flex items-center gap-2 mt-auto">
+            <img src="./assets/clock.png" alt="clock" class="w-4 h-4 brightness-0 invert opacity-70">
+            <p class="text-[#00FF88] text-sm font-medium">50 min</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<!-- ### Host Section -->
 
       </section>
+
+     <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-20 px-6 md:px-[200px] mt-[120px]">
+  <div class="max-w-[1200px] mx-auto">
+    <h1 class="text-white font-bold text-[32px] md:text-[48px] text-center mb-[40px]">Meet the Host</h1>
+    
+    <div class="flex flex-col md:flex-row gap-[40px] items-center md:items-start">
+      
+      <div class="flex-shrink-0">
+        <img src="./assets/host.png" alt="Alex Kumar" class="w-full max-w-[300px] rounded-2xl object-cover">
+      </div>
+      
+      <div class="text-white flex flex-col gap-[16px]">
+        <h3 class="text-[32px] font-bold">Alex Kumar</h3>
+        
+        <p class="font-normal text-white/80 leading-relaxed">
+          Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the 
+          tech industry for over 10 years, working with startups and Fortune 500 companies. 
+          Through TechWave, Alex shares insights from industry leaders and practical advice 
+          for anyone looking to grow in tech.
+        </p>
+        
+        <div class="flex gap-[16px] items-center mt-2">
+          <img src="./assets/linkedin.png" alt="linkedin" class="w-6 h-6 cursor-pointer hover:opacity-75">
+          <img src="./assets/x.png" alt="x" class="w-6 h-6 cursor-pointer hover:opacity-75">
+          <img src="./assets/instagram.png" alt="instagram" class="w-6 h-6 cursor-pointer hover:opacity-75">
+          <img src="./assets/youtube.png" alt="youtube" class="w-6 h-6 cursor-pointer hover:opacity-75">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+           
     </main>
+
+    <!-- footer section -->
+    <footer class="relative w-full max-w-[1600px] mx-auto min-h-[400px] flex flex-col items-center justify-center bg-[#412567] overflow-hidden mt-[120px]">
+     <div class="absolute inset-0 z-0"> 
+      <img src="./assets/footer-bg.png" alt=""
+      class="w-full h-full object-cover" />
+ 
+    </div>
+     
+    </footer>
+
+   
+   
+   
+   
+   
   </body>
 </html>
