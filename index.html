@@ -34,6 +34,7 @@
     </style>
   </head>
   <body class="font-inter bg-[#1A0B2E] min-h-screen flex flex-col">
+    <!-- navbar -->
     <nav class="w-full bg-[#1A0B2E] border-b border-white/20 z-50 flex-shrink-0">
       <div class="max-w-[1600px] mx-auto px-4 md:px-[100px] py-4 flex justify-between items-center relative">
         <div class="w-[219px] h-[32px] flex items-center flex-shrink-0">
@@ -59,13 +60,14 @@
         </div>
       </div>
     </nav>
+    <!-- banner section -->
 
     <section class="relative flex-1 w-full max-w-[1600px] mx-auto flex flex-col items-center justify-center bg-[#412567] overflow-hidden">
       <div class="absolute inset-0 z-0">
         <img src="./assets/hero-bg.png" alt="Waveform Background" class="w-full h-full object-cover" />
       </div>
 
-      <div class="relative z-10 flex flex-col items-center text-center px-4 md:px-20 w-full transform scale-90 lg:scale-100 transition-transform">
+      <div class="relative z-10 flex flex-col items-center text-center px-4 md:px-20 w-full transform scale-90 lg:scale-100 transition-transform mt-[101px]">
         <div class="relative w-[280px] h-[280px] md:w-[350px] md:h-[350px] mb-6 flex items-center justify-center">
           <img src="./assets/hero-circle.png" alt="Hero Circle" class="w-full h-full object-contain" />
           <img src="./assets/microphone.png" alt="Microphone" class="absolute z-20 w-[60px] md:w-[90px] brightness-0 invert" />
@@ -83,12 +85,12 @@
         </p>
 
         <div class="mt-8 flex flex-row gap-4 justify-center">
-          <button class="flex items-center justify-center gap-[8px] w-[201px] h-[44px] bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white rounded-full transition-transform hover:scale-105">
+          <button class="flex items-center justify-center gap-[8px] w-[201px] h-[44px] bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white rounded-full transition-transform ease-out hover:scale-[1.02]">
             <img src="./assets/spotify.png" alt="Spotify" class="w-[20px] h-[20px] object-contain brightness-0 invert" />
             <span class="text-[16px] font-semibold leading-none">Listen on Spotify</span>
           </button>
 
-          <button class="flex items-center justify-center gap-[8px] px-[20px] h-[44px] border border-[#00FF88] text-[#00FF88] rounded-full hover:bg-[#00FF88]/10 transition-all hover:scale-105">
+          <button class="flex items-center justify-center gap-[8px] px-[20px] h-[44px] border border-[#00FF88] text-[#00FF88] rounded-full ease-out hover:bg-[#00FF88]/10 transition-all hover:scale-[1.02]">
             <img src="./assets/message.png" alt="message" class="w-[20px] h-[20px] object-contain" />
             <span class="text-[16px] font-semibold leading-none">View Episodes</span>
           </button>
@@ -213,7 +215,9 @@
         </div>
       </section>
 
-      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-20 px-6 md:px-[200px] mt-[120px]">
+      <!-- host section -->
+
+      <section class="w-full max-w-[1600px] mx-auto bg-[#1A0B2E] py-8 md:py-20 px-6 md:px-[200px] mt-[60px] md:mt-[120px]">
         <div class="max-w-[1200px] mx-auto">
           <h1 class="text-white font-bold text-[32px] md:text-[48px] text-center mb-[40px]">Meet the Host</h1>
           <div class="flex flex-col md:flex-row gap-[40px] items-center md:items-start">
@@ -236,6 +240,7 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
 
     <footer class="relative w-full max-w-[1600px] mx-auto min-h-[440px] flex flex-col items-center justify-center bg-[#412567] overflow-hidden mt-[120px]">
       <div class="absolute inset-0 z-0">
